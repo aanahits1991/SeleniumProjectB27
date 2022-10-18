@@ -24,7 +24,7 @@ public class BasicNavigations {
     // navigate().to() method is loading to url in browser.
         driver.navigate().to("https://www.tesla.com");
 
-    String currentTitle = driver.getTitle();
+        String currentTitle = driver.getTitle();
         System.out.println("currentTitle = " + currentTitle);
 
     //System.out.println("driver.getCurrentUrl() = " + driver.getCurrentUrl());
